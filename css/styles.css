@@ -12,5 +12,82 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: "Roboto", "Arial", sans-serif;
+	background-color: #F4C669;
 }
 
+.budget-calculator {
+	height: 650px;
+	width: 1150px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+.cards-wrapper {
+	width: 430px;
+	height: 100%;
+	padding: 0 40px;
+	background-color: #F0F0F0;
+	overflow-y: auto;
+}
+
+.cards-wrapper-top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+
+.cards-wrapper-top h1 {
+	text-transform: capitalize;
+	font-weight: normal;
+}
+
+.cards-wrapper-top button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	outline: none;
+	background: none;
+}
+.cards-wrapper-top button img {
+	display: block;
+}
+
+.cards-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	margin-top: 10px;
+}
+
+.card-iteam {
+	margin-bottom: 40px;
+}
+
+.card-iteam a {
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	color: rgba(0,0,0, 0.5);
+	padding: 22px 18px;
+	border: 2px solid rgba(0,0,0, 0.5);
+	border-radius: 10px;
+	background-color: white;
+	font-weight: bold;
+}
+
+.card-iteam a img {
+	display: inline-block;
+}
+
+.card-number {
+	margin-top: 20px;
+	font-size: 25px;
+}
+.card-validation {
+	font-size: 20px;
+	margin-top: 5px;
+}
