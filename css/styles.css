@@ -32,6 +32,26 @@ body {
 	overflow-y: auto;
 }
 
+.cards-wrapper::-webkit-scrollbar {
+	width: 11px;
+	height: 11px;
+}
+
+.cards-wrapper::-webkit-scrollbar-thumb {
+	background: transparent;
+	border-radius: 15px;
+	transition: all 0.3s ease;
+}
+.cards-wrapper:hover.cards-wrapper::-webkit-scrollbar-thumb {
+	background: #a6a6a6;
+}
+
+.cards-wrapper::-webkit-scrollbar-track {
+	background: #f0f0f0;
+	border-radius: 15px;
+}
+
+
 .cards-wrapper-top {
 	display: flex;
 	align-items: center;
